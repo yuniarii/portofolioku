@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+.header{
+  width: 100%;
+  height: auto;
+  background-color:#0f172a;
+  padding-bottom: 1rem;
+  
+}
+/*navbar*/
+.navbar-brand h4{
+  color: #00a2f7;
+}
+.navbar-nav a{
+  font-weight: 600;
+  color: white;
+  transition: .2s ease-in-out;
+  margin-right: 2.5rem;
+}
+.navbar-nav a:hover{
+  color: #00a2f7;
+}
+.navbar-nav{
+  padding-right: 5rem;
+}
+.wrap_navbar{
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  background-color: #0f172a;
+  
+  z-index: 99999;
+  
+  border-bottom: 1px solid #00a1f756;
+  
+}
+.navbar-brand{
+  padding-left: 3rem;
+}
+
+/* end nav*/
+.pembungkus{
+  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+}
+.nama h1{
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+.asal h3{
+  color: #00a2f7;
+  padding-bottom: 1rem;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.deskripsi p{
+  color: white;
+  font-weight: 300;
+  padding-bottom: 1.5rem;
+}
+.tombol a{
+  text-decoration: none;
+  color: #00a2f7;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #00a2f7;
+  font-weight: 700;
+  transition: .2s ease-in-out;
+  border-radius: 20px;
+  
+}
+
+.tombol a:hover {
+  background-color: #00a2f7;
+  color: #00a2f7;
+  
+}
+.section{
+  padding-bottom: 3rem;
+}
+.tombol-sosmed a{
+  padding: 1rem 1.5rem;
+  color: #00a2f7;
+  background-color: transparent;
+  border: 1px solid #00a2f7;
+  border-radius: 50px;
+  margin-right: 1.5rem;
+  transition: .2s ease-in-out;
+  font-size: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.tombol-sosmed a:hover{
+  background-color: #00a2f7;
+  color: #0f172a;
+}
+
+.pembungkus-tombol{
+  display: flex;
+  align-items: center;
+}
